@@ -1,4 +1,6 @@
-let makeFaveGameString = (faveGame) => {
+
+
+let makeFaveGameString = faveGame => {
   return `My favorite game is ${faveGame}`;
 };
 
@@ -15,6 +17,6 @@ makeFaveGameString = (faveGame) => {
 
 console.log(makeFaveGameString("Dark Souls"));
 
-makeFaveGameString = (faveGame) => `My favorite game is ${faveGame}`;
+makeFaveGameString = faveGame => `My favorite game is ${faveGame}`;
 
 console.log(makeFaveGameString("CandyLand"));
